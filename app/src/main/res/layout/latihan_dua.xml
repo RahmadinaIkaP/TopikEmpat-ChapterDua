@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/satu"/>
+
+    <Button
+        android:id="@+id/btnDua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dua"
+        android:layout_below="@id/btnSatu"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/btnTiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tiga"
+        android:layout_below="@id/btnDua"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/btnEmpat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empat"
+        android:layout_below="@id/btnTiga"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnLima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lima"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnEnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enam"
+        android:layout_below="@id/btnLima"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnTujuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tujuh"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnDelapan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delapan"
+        android:layout_alignBottom="@id/btnTujuh"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/btnSembilan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sembilan"
+        android:layout_above="@+id/btnTujuh"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnSepuluh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sepuluh"
+        android:layout_below="@id/btnEnam"/>
+
+</RelativeLayout>
