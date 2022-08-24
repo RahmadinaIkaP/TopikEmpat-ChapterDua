@@ -11,5 +11,32 @@
     <string name="delapan">8</string>
     <string name="sembilan">9</string>
     <string name="sepuluh">10</string>
+
+<!--  String untuk tampilan_tamyiz  -->
     <string name="transaksi_buku">Transaksi Buku</string>
+    <string name="super_admin">Super Admin</string>
+    <string name="transaksi_pesantren_bulanan">Transaksi Pesantren Bulanan</string>
+    <string name="transaksi_penjualan_buku">Transaksi Penjualan Buku</string>
+    <string name="data_buku">Data Buku || Tambah Data</string>
+    <string name="data_piutang_buku">Data Piutang Buku</string>
+    <string name="laporan_penjualan_buku">Laporan Penjualan Buku</string>
+    <string name="pendaftaran_santri_baru">Pendaftaran Santri Baru</string>
+    <string name="kas">Kas (D/K)</string>
+    <string name="data_piutang_bulanan">Data Piutang Bulanan</string>
+    <string name="laporan_keuangan">Laporan Keuangan</string>
+
+<!--  String untuk tampilan payment dan top up  -->
+    <string name="your_username">Your username</string>
+    <string name="id_user">ID User</string>
+    <string name="email">Email</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="pay">Pay</string>
+    <string name="top_up">Top Up</string>
+    <string name="top_up_your_balance">Top up your balance here!</string>
+    <string name="amount">amount</string>
+    <string name="minimum_topup">Min Rp5.000</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
 </resources>
